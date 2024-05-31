@@ -7,7 +7,7 @@ Overview
 Setting Up Environment
 --------------------------------------
 Setting up my environment, I used a virtual environment to keep my dependencies isolated. I am using `venv` to create my virtual env.
-```sh
+```shell
 python3 -m venv langchain-env #create a virtual environment
 
 source lanchain-env/bin/activate #activate the virtual environment
