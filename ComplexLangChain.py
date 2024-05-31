@@ -1,7 +1,7 @@
 from langchain_openai import OpenAI
 
 # Set up the OpenAI model
-model = OpenAI(api_key="sk-proj-p5l4J3SogEmXDn5TTAz6T3BlbkFJPDvyIHL3mMLx8R2qwCQM")
+model = OpenAI(api_key="OpenAI API KEY")
 
 # Define a list of prompts with corresponding max_tokens limits
 prompts = [
