@@ -1,6 +1,7 @@
 Overview
 ---------------
 -> LangChain, a powerful framework designed for building applications, utilizes language models (LLMs) and the tools to integrate said LLMs into various types of applications such as chatbots, automated content creation, and data processing. LangChain was built with modularity in mind, giving developers different components for different needs; data preprocessing, model selection, response generation, and post-processing.
+
 ->LangChain promotes the use of pipelines, where different stages of processing are chained together. This makes it easier to build complex workflows that involve multiple steps, such as fetching data, transforming it, generating text, and refining the output. LangChain is supposed to be very flexible as well in terms of working with other LLMs allowing developers to choose the best model for their application without being locked into a single ecosystem. 
 
 Setting Up Environment
@@ -77,5 +78,7 @@ All the "No response generated for Prompt X" meant that there were no more alloc
 After a while, I was able to output all four prompts with their specific generation, albeit the output is pretty messy.
 
 Conclusion
+----------------------------------------------
 -> LangChain is a framework that facilitates the integration and orchestration of various language models and natural language processing tools, (NLPs). It aims to simplify the development and deployment of NLP applications by providing a unified interface to interact with different models and APIs.
+
 -> In my current setup, I am primarily using OpenAI's GPT-3.5 model through the langchain_openai package. LangChain abstracts some of the complexities of interacting with different NLP APIs, providing a standardized way of using models like GPT-3.5. For future development, LangChain could be used in my code for seamlessly switching between different NLP services or models without extensive code changes.
